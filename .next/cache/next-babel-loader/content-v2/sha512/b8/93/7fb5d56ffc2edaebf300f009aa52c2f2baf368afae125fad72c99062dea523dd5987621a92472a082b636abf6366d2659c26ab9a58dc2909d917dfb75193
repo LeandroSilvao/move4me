@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport React from \"react\";\nimport Login from \"./login\";\nexport default function Index() {\n  return /*#__PURE__*/_jsx(Login, {});\n}","map":null,"metadata":{},"sourceType":"module"}

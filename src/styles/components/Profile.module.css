@@ -1,0 +1,57 @@
+.profileContainer {
+    display: flex;
+    flex-direction: row;
+    /* border: solid 1px #fff; */
+}
+.profileContainer > img {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+}
+.infoLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    /* border: solid 1px #fff; */
+}
+.infoLogin > div strong{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--title);
+}
+.infoLogin > div p{
+    font-size: 0.9rem;
+    margin-left: 2px;
+}
+.infoLogin > p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.infoLogin > p img {
+    margin-right: 0.5rem;
+}
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid 1px #fff; */
+    width: 100%;
+    font-size: 2rem;
+}
+.logout svg {
+    cursor: pointer;
+    transition: font-size 0.3s;
+}
+.logout svg:hover {
+    font-size: 2.2rem;
+    background: #ffffff13;
+    border-radius: 5px;
+}
+
+.darkTheme{
+    color: var(--white);
+}
+.darkTheme div strong{
+    color: var(--white);
+}

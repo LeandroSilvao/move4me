@@ -1,0 +1,8 @@
+.ChangeThemeColorContainer {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    margin: 10px 0 20px 0;
+    /* border: solid 1px #000; */
+}
